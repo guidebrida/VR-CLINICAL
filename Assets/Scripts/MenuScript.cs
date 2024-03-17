@@ -1,6 +1,10 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameStartMenu : MonoBehaviour
+public class MenuScript : MonoBehaviour
 {
     public void QuitGame()
     {
