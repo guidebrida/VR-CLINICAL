@@ -9,16 +9,27 @@ public class GameStartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneTransitionManager.singleton.GoToSceneAsync(1);
+        SceneTransitionManager.singleton.GoToScene(1);
     }
 
-    public void TriviaStart()
+    public void gameCenaNegacaoFinal()
     {
-        SceneTransitionManager.singleton.GoToSceneAsync(3);
+        SceneTransitionManager.singleton.GoToScene(3);
     }
 
-    public void PedraPapelStart()
+    public void gameCenaNegacao()
     {
-        SceneTransitionManager.singleton.GoToSceneAsync(2);
+        SceneTransitionManager.singleton.GoToScene(2);
     }
+
+    public void gameCenaFinal()
+    {
+        SceneTransitionManager.singleton.GoToScene(4);
+    }
+
+    public void gameCenaTrivia()
+    {
+        SceneTransitionManager.singleton.GoToScene(5);
+    }
+
 }
