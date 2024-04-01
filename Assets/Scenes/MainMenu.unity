@@ -1158,6 +1158,7 @@ GameObject:
   - component: {fileID: 448256130}
   - component: {fileID: 448256129}
   - component: {fileID: 448256132}
+  - component: {fileID: 448256133}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -1229,13 +1230,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 448256133}
+        m_TargetAssemblyTypeName: GameStartMenu, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1294,6 +1295,18 @@ MonoBehaviour:
   clickAudioName: uiclick
   hoverEnterAudioName: uihoverenter
   hoverExitAudioName: 
+--- !u!114 &448256133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448256127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af07645f3014a1347a5b1232afc24251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &456398478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2699,6 +2712,7 @@ GameObject:
   - component: {fileID: 1101969937}
   - component: {fileID: 1101969936}
   - component: {fileID: 1101969939}
+  - component: {fileID: 1101969940}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -2770,13 +2784,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1101969940}
+        m_TargetAssemblyTypeName: GameStartMenu, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2835,6 +2849,18 @@ MonoBehaviour:
   clickAudioName: uiclick
   hoverEnterAudioName: uihoverenter
   hoverExitAudioName: 
+--- !u!114 &1101969940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101969934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af07645f3014a1347a5b1232afc24251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1144905148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,14 +3050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af07645f3014a1347a5b1232afc24251, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 0}
-  options: {fileID: 0}
-  about: {fileID: 0}
-  startButton: {fileID: 0}
-  optionButton: {fileID: 0}
-  aboutButton: {fileID: 0}
-  quitButton: {fileID: 0}
-  returnButtons: []
 --- !u!1 &1212402841
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,16 +3170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af07645f3014a1347a5b1232afc24251, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 1163744328}
-  options: {fileID: 96565793}
-  about: {fileID: 79910497}
-  startButton: {fileID: 448256129}
-  optionButton: {fileID: 1517863461}
-  aboutButton: {fileID: 299148710}
-  quitButton: {fileID: 1101969936}
-  returnButtons:
-  - {fileID: 1144905150}
-  - {fileID: 656018491}
 --- !u!1 &1273556205
 GameObject:
   m_ObjectHideFlags: 0
