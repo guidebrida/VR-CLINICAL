@@ -920,8 +920,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.4, y: -27.1}
-  m_SizeDelta: {x: 434.2, y: 215}
+  m_AnchoredPosition: {x: -55, y: -27.1}
+  m_SizeDelta: {x: 534.2, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557851866
 MonoBehaviour:
@@ -2239,8 +2239,8 @@ Transform:
   m_GameObject: {fileID: 1112318138}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6694548, y: 2.0290968, z: 2.3451529}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalPosition: {x: -0.54, y: 2.0290968, z: 2.57}
+  m_LocalScale: {x: 10, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4454,7 +4454,7 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 93735ab1-916a-4176-8403-6c0cabefba52

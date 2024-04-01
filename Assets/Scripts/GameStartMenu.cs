@@ -37,6 +37,10 @@ public class GameStartMenu : MonoBehaviour
         SceneTransitionManager.singleton.GoToScene(5);
     }
 
+    public void gameCenaMenuInicial()
+    {
+        SceneTransitionManager.singleton.GoToScene(0);
+    }
 
 
 }
