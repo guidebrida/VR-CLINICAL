@@ -9,13 +9,22 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2f18431d81e51454683cabf92601ab5b
   - enabled: 1
-    path: Assets/Scenes/RockPaper.unity
+    path: Assets/Scenes/cenaInicial.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/cenaNeg.unity
+    guid: 37083931d92273e4aa53b7d5d67fb116
+  - enabled: 1
+    path: Assets/Scenes/cenaNegMedoVacina.unity
+    guid: e70108d4206027f45b49bd43b460f9f4
+  - enabled: 1
+    path: Assets/Scenes/CenaFinal.unity
+    guid: 5cfc0525bcc058d4689c22f67ebb44fa
   - enabled: 1
     path: Assets/Scenes/Trivia.unity
     guid: acb3af3247bbec0469192323d844499a
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed1d7e7e8272efa4f8d6d47e3509ff3f,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e9eb6caf5d425924c8a296cc14d949d9,
       type: 2}
